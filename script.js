@@ -2,8 +2,8 @@ let array =[1,2,2,3,3,4,4,5,5,5];
 console.log(array);
 
 function takeAction(arr){
-    let object = new Object;
     if(Array.isArray(arr)){
+        let object = new Object;
         arr.forEach(item =>{
             if(object[item]){
                 object[item] ++;
